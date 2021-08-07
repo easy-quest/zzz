@@ -1,0 +1,9 @@
+Usage:
+
+
+virtualenv venv
+. venv/bin/activate
+python -m pip install --upgrade pip setuptools
+pip install --editable .
+
+$ zzz.py
